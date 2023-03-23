@@ -12,13 +12,14 @@
   &__list {
     display: flex;
     overflow-y: hidden;
-    overflow-x: scroll;
+    overflow-x: hidden;
     @include medium;
     font-size: 16px;
     color: #7e7e82;
     scrollbar-width: none;
     list-style: none;
     padding: 0;
+    flex-wrap: wrap;
   }
 
   &__item {
