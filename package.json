@@ -57,5 +57,8 @@
   "repository": {
     "url": "git+https://github.com/Siergiejevicz/WebCore-1.6.git",
     "homepage": "http://Siergiejevicz.github.io/WebCore-1.6"
+  },
+  "dependencies": {
+    "swiper": "^9.1.1"
   }
 }

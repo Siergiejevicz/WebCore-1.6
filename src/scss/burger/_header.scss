@@ -1,0 +1,16 @@
+.header--burger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .button--close {
+    @include mediaQ($mqDl) {
+      display: none;
+    }
+  }
+
+  .header__logo {
+    margin-left: 16px;
+    margin-right: auto;
+  }
+}
