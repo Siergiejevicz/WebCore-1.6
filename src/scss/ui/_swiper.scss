@@ -35,9 +35,10 @@
   }
 
   &-pagination {
-    bottom: 24px !important;
+    // bottom: 24px !important;
     @include mediaQ($mqT) {
-      display: none;
+      
+      // display: none;
     }
   }
 

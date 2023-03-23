@@ -22,34 +22,34 @@
   }
 
   &--burger {
-    background-image: url(/img/header/burger.svg);
+    background-image: url(./img/header/burger.svg);
   }
 
   &--call {
-    background-image: url(/img/header/call.svg);
+    background-image: url(./img/header/call.svg);
   }
 
   &--chat {
-    background-image: url(/img/header/chat.svg);
+    background-image: url(./img/header/chat.svg);
   }
 
   &--profile {
-    background-image: url(/img/header/profile.svg);
+    background-image: url(./img/header/profile.svg);
     @include mediaQ($mqT) {
       margin-right: 20px;
     }
   }
 
   &--repair {
-    background-image: url(/img/header/repair.svg);
+    background-image: url(./img/header/repair.svg);
   }
 
   &--checkstatus {
-    background-image: url(/img/header/checkstatus.svg);
+    background-image: url(./img/header/checkstatus.svg);
   }
 
   &--close {
-    background-image: url(/img/menu/header/burger-close.svg);
+    background-image: url(./img/menu/header/burger-close.svg);
 
     &:hover {
       transform: rotate(15deg);
@@ -58,19 +58,19 @@
   }
 
   &--search {
-    background-image: url(/img/menu/header/search.svg);
+    background-image: url(./img/menu/header/search.svg);
   }
 
   &--phone {
-    background-image: url(/img/menu/footer/phone.svg);
+    background-image: url(./img/menu/footer/phone.svg);
   }
 
   &--chat {
-    background-image: url(/img/menu/footer/chat.svg);
+    background-image: url(./img/menu/footer/chat.svg);
   }
 
   &--profile {
-    background-image: url(/img/menu/footer/profile.svg);
+    background-image: url(./img/menu/footer/profile.svg);
   }
 
   &--modal {
