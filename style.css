@@ -898,8 +898,10 @@ template {
   color: #7e7e82;
   scrollbar-width: none;
   list-style: none;
-  padding: 0;
-  flex-wrap: wrap; }
+  padding: 0; }
+  @media screen and (min-width: 1440px) {
+    .filter__list {
+      flex-wrap: wrap; } }
 
 .filter__item {
   display: inline-block;
