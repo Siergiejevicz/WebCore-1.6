@@ -890,7 +890,7 @@ template {
 .filter__list {
   display: flex;
   overflow-y: hidden;
-  overflow-x: scroll;
+  overflow-x: hidden;
   font-family: "TT Lakes";
   font-weight: 500;
   font-style: normal;
@@ -898,7 +898,8 @@ template {
   color: #7e7e82;
   scrollbar-width: none;
   list-style: none;
-  padding: 0; }
+  padding: 0;
+  flex-wrap: wrap; }
 
 .filter__item {
   display: inline-block;
