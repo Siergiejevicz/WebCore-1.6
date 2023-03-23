@@ -20,7 +20,15 @@
     list-style: none;
     padding: 0;
     flex-wrap: wrap;
+    @include mediaQ($mqT) {
+      flex-wrap: nowrap;
+    }
+    @include mediaQ($mqDm) {
+      flex-wrap: nowrap;
+    }
+    
   }
+
 
   &__item {
     display: inline-block;
