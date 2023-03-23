@@ -384,7 +384,7 @@ template {
   padding-bottom: 52px; }
   @media screen and (min-width: 768px) {
     .swiper-container {
-      overflow: visible;
+      overflow: hidden;
       padding: 0; } }
 
 .swiper-wrapper {
@@ -615,7 +615,7 @@ template {
   box-sizing: border-box;
   box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2), -2px 0px 4px rgba(69, 79, 126, 0.02);
   color: #1b1c21;
-  overflow: scroll;
+  overflow: hidden;
   z-index: 10;
   font-family: "TT Lakes";
   font-weight: 500;
